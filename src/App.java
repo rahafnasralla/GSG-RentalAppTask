@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) {
-        BuildingOwner owner = new BuildingOwner("John Doe", "john@example.com");
-        Customer customer = new Customer("Jane Smith", "jane@example.com");
+        BuildingOwner owner = new BuildingOwner("Rahaf Nasrallah", "Rahaf@gmail.com.com");
+        Customer customer = new Customer("Jack Hamilton", "jack@gmail.com");
 
         Apartment apartment = new Apartment("123 Main St", "Sunny Apartment", 80.0, 3);
         owner.addBuilding(apartment);
