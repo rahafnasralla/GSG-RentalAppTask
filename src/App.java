@@ -3,7 +3,7 @@ public class App {
         BuildingOwner owner = new BuildingOwner("Rahaf Nasrallah", "Rahaf@gmail.com.com");
         Customer customer = new Customer("Jack Hamilton", "jack@gmail.com");
 
-        Apartment apartment = new Apartment("123 Main St", "Sunny Apartment", 80.0, 3);
+        Apartment apartment = new Apartment("15 St", "Flowers Apartment", 80.0, 3);
         owner.addBuilding(apartment);
 
         Payment paymentMethod = new PayPal();
